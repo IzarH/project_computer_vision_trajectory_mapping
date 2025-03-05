@@ -1,8 +1,11 @@
-# computer_vision_trajectory_mapping
- 
+# Abstract
+
+Process a video captured while moving through an environment to output an accurate 3D trajectory of the movement path relative to a known map. By leveraging prior knowledge of the environment and using ArUco markers distributed throughout, we developed a robust system for reconstructing 3D trajectories from video data. The proposed solution employs a hybrid approach combining ArUco marker-based localization and ORB-SLAM3. ArUco markers provide reliable pose estimation, including orientation and location, whenever visible. When markers are not detected, ORB-SLAM3 seamlessly takes over to continue tracking and mapping. By integrating ArUco-derived pose information as ground truth for ORB-SLAM3, the system achieves enhanced accuracy and robustness across diverse scenarios.
+
+
 docs – מסמך אפיון ודו”ח סופי .
 
-poster – פוסטר בהתאם לתבנית הנ”ל.
+poster – פוסטר .
 
 code – קבצי קוד  
 
